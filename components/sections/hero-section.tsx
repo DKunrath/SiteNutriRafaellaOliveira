@@ -8,7 +8,7 @@ import Image from "next/image"
 
 export default function HeroSection() {
   const whatsappMessage = encodeURIComponent(
-    "Olá! Gostaria de agendar uma consulta com a nutricionista Rafaella Oliveira.",
+    "Oi nutri, tenho interesse em agendar uma consulta!",
   )
   const whatsappLink = `https://wa.me/5551992450130?text=${whatsappMessage}`
 
