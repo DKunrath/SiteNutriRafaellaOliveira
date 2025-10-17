@@ -150,12 +150,12 @@ export default function InBodySection() {
             {/* Mobile Carousel - Visible only on mobile */}
             <div className="md:hidden relative">
               <div className="bg-card rounded-2xl overflow-hidden shadow-lg">
-                <div className="relative h-80">
+                <div className="relative h-96 flex items-center justify-center bg-background/50">
                   <Image
                     src={evolutionPhotos[currentPhotoIndex].image}
                     alt={evolutionPhotos[currentPhotoIndex].alt}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="100vw"
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist

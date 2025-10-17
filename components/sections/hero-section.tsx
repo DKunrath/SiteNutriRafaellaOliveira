@@ -62,10 +62,10 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight text-balance relative"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight text-balance relative"
               style={{
-                fontFamily: '"Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif',
-                fontWeight: '800',
+                fontFamily: '"Playfair Display", serif',
+                fontWeight: '700',
                 letterSpacing: '-0.025em',
                 textShadow: '0 8px 24px rgba(0,0,0,0.12)',
                 background: 'linear-gradient(135deg, #0f0f0f 0%, #2a2a2a 30%, #4a4a4a 70%, #1a1a1a 100%)',
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))',
               }}
             >
-              NUTRICIONISTA ESPECIALISTA EM{' '}
+              Nutricionista Especialista em{' '}
               <span 
                 className="text-primary block md:inline relative"
                 style={{
@@ -91,7 +91,7 @@ export default function HeroSection() {
                   filter: 'drop-shadow(0 4px 8px rgba(123, 19, 54, 0.2))',
                 }}
               >
-                NUTRIÇÃO ESPORTIVA
+                Nutrição Esportiva
               </span>
             </motion.h1>
 
@@ -99,7 +99,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed text-pretty"
+              className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty"
             >
               Transforme sua relação com a alimentação através de um atendimento personalizado, acolhedor e baseado em
               evidências científicas.
@@ -162,7 +162,7 @@ export default function HeroSection() {
               
               {/* Imagem Desktop */}
               <Image
-                src="/hero_image_certa.png"
+                src="/hero_image_100.png"
                 alt="Rafaella Oliveira - Nutricionista"
                 width={600}
                 height={700}

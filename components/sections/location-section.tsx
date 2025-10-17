@@ -61,6 +61,7 @@ export default function LocationSection() {
                   <div className="text-muted-foreground space-y-1">
                     <p>Segunda a Sexta: 8h às 18h</p>
                     <p className="text-sm mt-2 italic">*Atendimento mediante agendamento prévio</p>
+                    <p className="text-sm mt-2 italic">*Disponibilidade para agendamentos em horários estendidos (após o horário comercial) e aos sábados, mediante consulta prévia.</p>
                   </div>
                 </div>
               </div>
